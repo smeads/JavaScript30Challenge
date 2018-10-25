@@ -7,7 +7,7 @@ module.exports = {
   // Establish output paths for your Webpack build
   // The output object establishes the paths where webpack will store its final build.
   output: {
-    path: __dirname + "/_dist", // path is the absolute path, i.e. the full name of the directory where our build is stored. __dirname is a built in node.js variable that maps to the current directory.
+    path: __dirname + "/dist", // path is the absolute path, i.e. the full name of the directory where our build is stored. __dirname is a built in node.js variable that maps to the current directory.
     publicPath: "/", // publicPath is the public URL that the build will connect to. / tells webpack that this build will be the path to our app’s root URL.
     filename: "bundle.js" // filename is the name of the file where the build will be stored.
   },
