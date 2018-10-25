@@ -1,8 +1,20 @@
 {
-  "name": "JavaScript30Challenge",
+  "name": "javascript-30-challenge",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/smeads/JavaScript30Challenge.git",
   "author": "Steve Meads <smeads@sofi.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.23.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "start": "webpack -p && node server.js"
+  }
 }
