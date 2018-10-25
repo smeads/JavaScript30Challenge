@@ -1,0 +1,8 @@
+{
+  "name": "JavaScript30Challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/smeads/JavaScript30Challenge.git",
+  "author": "Steve Meads <smeads@sofi.org>",
+  "license": "MIT"
+}
