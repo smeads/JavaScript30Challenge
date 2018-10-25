@@ -7,3 +7,6 @@ package-lock.json
 
 # production
 /build
+
+# dependencies
+/node_modules
