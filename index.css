@@ -1,0 +1,24 @@
+body {
+  width: 100%;
+  background: #eee;
+  margin: 30px auto;
+  padding: 20px;
+  /*   outline: 1px solid #ccc; */
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  max-width: 300px;
+  display: inline-block;
+}
