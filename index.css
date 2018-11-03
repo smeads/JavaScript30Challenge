@@ -11,6 +11,10 @@ header {
   text-align: center;
 }
 
+.container {
+  display: flex;
+}
+
 a {
   border: none;
   outline: none;
